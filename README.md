@@ -1,2 +1,2 @@
-this repos is all ablout linux driver development on raspi4
+this repos is all about linux driver development on raspi4
 
