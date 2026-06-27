@@ -3,18 +3,14 @@
 # =====================================
 *.o
 *.ko
-*.mod
-*.mod.c
-*.mod.o
+*.mod*
 *.symvers
 *.order
 *.cmd
 *.tmp
 *.d
-
 Module.symvers
 modules.order
-
 # =====================================
 # Device Tree Build Artifacts
 # =====================================
