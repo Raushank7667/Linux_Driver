@@ -1,0 +1,81 @@
+# =====================================
+# Linux Kernel Module Build Artifacts
+# =====================================
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.symvers
+*.order
+*.cmd
+*.tmp
+*.d
+
+Module.symvers
+modules.order
+
+# =====================================
+# Device Tree Build Artifacts
+# =====================================
+*.dtb
+*.dtbo
+
+# =====================================
+# Executables / Binaries
+# =====================================
+a.out
+*.out
+*.elf
+*.bin
+
+# Ignore executables without extension
+# (common for test applications)
+test
+testapp
+client
+server
+hello
+
+# =====================================
+# Build Directories
+# =====================================
+build/
+out/
+bin/
+obj/
+
+# =====================================
+# Editor / IDE Files
+# =====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =====================================
+# Operating System Files
+# =====================================
+.DS_Store
+Thumbs.db
+
+# =====================================
+# Logs
+# =====================================
+*.log
+
+# =====================================
+# Keep Source Files
+# =====================================
+!*.c
+!*.h
+!*.cpp
+!*.hpp
+!Makefile
+!Kconfig
+!README.md
+!*.txt
+!*.sh
+!*.dts
+!*.dtsi
